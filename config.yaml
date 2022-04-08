@@ -1,0 +1,148 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - string:
+          id: "ntg_sre"
+          scope: GLOBAL
+          secret: "{AQAAABAAAAAwa6IpaHcehDsi/Rv0JFdfCUhuFEmQy/UEWfbQ2DFS90rd6g4fDEA+cFkxJwW+maWH2JVFVQW06HO7ibw8YkvJsQ==}"
+      - basicSSHUserPrivateKey:
+          id: "5a415717-ec04-4bcd-98c3-c9bf062e5e96"
+          privateKeySource:
+            directEntry:
+              privateKey: "{AQAAABAAAAGwSscymPZ9wiwGJL19I0CrbRYKxVw5YWggv1Ao55Ixnxf/5noMecB79kEvfgpyFN+tg7eWDtD9EO6fa/xdDq4CeOQEK/uJwjwzQ0UhOLrTLyzRPl77o73Kmpe5f/PrnqJpIC4U1Pqe2TqoS0wjtoBDar9l/TIciMyvcneY85nDtHJJNUSd1779b2lpLq8tvlca+Dnm1pdM46/iJoOGWcFwOYy4lC7nDCC1C+jqm8s5QjaLaJNF4iJHZJmCSBFrHzQFqE3ah9nKsZIM9n9xIGPx0mSUy01DNUo5KHUcGiiCv19zuQVqbN3Yh/OirRN86GS7NIcMFozpPg4yq9zMTp/ZF3VaPeuLpMdHZgRYviLaZ9qtp7B7yeaHIT6PTeM3NcOq3+09kwH1/ZsBzkYq39DEsvu6VaWAP1FX4lmLg9I0hNFqEb4+39C2ygwJ5muGeeKdgcP6iBAIYHJ+ixty8lGH2hDVojOMYLBTc8i9FrqFR1fmuEte/qIHbm+yOfeXHHp4XGBsduuomQo2qfK1fbUGdb+9C6V7qkm8QjMZ/dIlIduM4FuplDuyFBgLkEzZH1/PJOFwC6YnQ0jBahWORb5QYg==}"
+          scope: GLOBAL
+          username: "Jenkins"
+      - googleRobotPrivateKey:
+          module: |-
+            FAILED TO EXPORT
+            com.google.jenkins.plugins.credentials.oauth.GoogleRobotPrivateKeyCredentials#module: No configurator found for type class com.google.jenkins.plugins.credentials.oauth.GoogleRobotCredentialsModule
+          projectId: "takuxi"
+          serviceAccountConfig:
+            json:
+              filename: "takuxi-77a05b5c21d1.json"
+              secretJsonKey: "{y1o4Wz3aWyIHGLJ41KW5gk3N+cbvM7SDf87mZWdYJ5hC2T2Qr26dlmIvqw5+/3rsUaaV/3ZjS8Nb5NRXdUcDt03wa32G4ctPbO32KkY0s5hPSLKhyjC/z8PmC7PdQ72T5S1sS5zs/43TcyHN82Xa1dEH1mtQqXgZLyFDPGggL1R13UDD3qqIi8yQDucPtUqizA/SyTVN3ydFutlgkyMFnvb6uVF1O14CaluWuOz8+P9cnIrKsOFs6mdSBFrjPpiQRewViXozQIn8BQlV67phQ4U9SEsbumq7uXLTtM/EotYCgA+O+eb0xzK3VT0vOz2cyDp3EJBSb4gKtHqFAYG6a9auBWfkQQRjIICuaPjgqdFWGczlYm7AifRZM9JMrwxxihZ4miXhAbU0Sm7NWO6G2+ZWCnAx/c/Zwv1QrvSbpDqYxTINsmpO6nxORKWpuHL+G+RbHvltLOY4TV7HMh+aDhkDTF9jRH112GBsCS5PmXnUrTV5BnormZtZza31vnaAPvoA7Hgignd2wsHbeFmqSsEO4bL+iKQ2QC5wsZY7AvxyjXkhNeAFhCdTjY8NYTpQFS3IoB8XLroQoa/7L3dPh04NFIlHaRRGpsXMcM4PKN6BUVsbcYmXc1XCbFcZfkhKIhhBkPgZwNRZpTBRt7HdMW2yHugm2y8m5btd0Z/yfJbtCyfeUR7HNFRzvFAH5S/J078E+PFJaOyThV2ybq1VYRSsBqghlQRnvkJiZYEyQEcxF5LoBR+nTNzPrBw3u0MtiqtPKpX/wrJAFnU4l0DsPJsRsBmhDt/KysgXBMxWPVr3bx8TGJLbpj+m3c9eoxe9+P+XOGiWt/HtEVFai9nFcTAGUU+1IHsiRy5aPaEsbXNZKamd4x7ebDbHRzrZCpeeZAqydzTCMwa5/tuHhcMCa0b+cqfk7NcbvRXRLRiynlGpgTOyvWv13bGJt5ldP5HoddE2w9RHLuYbkezpQHjORgYzENVkLeHLF8k3am55H/66LeEVLfCcsaddsnnCSzu3CVYn59btiJmzyi1WaoyIMn3QKaWKpWlRDn55AWyRI07qgjT5aR808nH7GS/b2pospnok51coBI/PrdLAEFaRBJp5UI54YXxyh3kZMp7q/ilZZaWuz2VmD7cYlPsmafP48SA3BhThF7RfaXkprcGRcvY+n7DphgU3BHraj+auk2LOFaveL2iyrPvyrbz1ynY1wNyn4MMFxi1iNLqgLng/C+hN1HM/stKlJdqQJ9vp0JDPZqTr1iopvOeYF1YQez415YudCzAbWBJQUaRo/Tac/x2/W2Iki49KMkKBHw5ntzHyCzkvXcIyqNM+y9qbQSE/vcEm2J7k5lyV5lgLnfZuntyc3mGkkHaESyzmeWRcNFIEP/h0+S3pTU43Z1GFLRU3nB3DTkKXY1efGuzYCVZI7xyNhiy1e3gvMr8IStcMlOPcUsDZqTT8cgHYTBTVuUPMx3dqAa1p3RVL/lcf0qS/AJTsHzWZi6CU4HEI+u+oLeVMBREW7J5zRXKcE9YyLkVR/h26eXAYVbRE1+/H88s3YorKFmaAveQilXouWTboYuqDMa3rz4PBLYQTbDNn5yFcyKGfkYH8uYJHvHlFWlW4NCTlJhhzcJy+R2yNASOOAU4ojUA6Xq7lbg6SCgrPFYKTZ6iWmu45Pm9jp8Z8M9PNErYAIbokrfNIuUlkZrpNgXCREx6aEk4B1qRaOeqvDZzX5xcIT1IeJu6VYfJjFoIxoRFYwBS6OFvAP0R/Pxrg5IwhaTLp+Hd1wKuMN3EvRzLqpJcW8pNB5LT8cKXiXLSLMHqazAEUrZy98uxrz+gwGssv85lcBO5EsXguTWEWH4hSAS4MudYMyy/aZoxeySlc1PfzFf0hvL9b/40AF2qmD22ONdAK9HDdxzvVHtQzeSGRxvM3Povg2MYJj/E78RRTM87EduA7pWCBGnQpm9gObD+XLRPKJ2cvhB/w5UCJv2SbwFN/idzTVSVYtvfCNuKtw0ZWPG2kyJXUEYjt4UYGiiQmFe+jAtU+KMRMRXxLtsTeFzVFMlL6yXpz9Ly5U/io1ATFeF718MAaiQUBTKXNjGXHzkxZG4lDuZXQymV1G0CwUh3wpiD5rqNS7cSz4h3V5QlcWhN3ttfpftQHd/h7KpzK5P+5NohTCrA7eLy5ctWfkcHc+6DwlcEAdcp/24qzOR1+JgpepKIrMnHNMH9h6z4jW8ABVJBQ9fCmfQ6eWOX7PEloR8DIifhJMlAqJ4Ud/aRhaH3aQns14taq0gUPWRqjb9nLwVdj8MLHe9l7oAGOczyGQPUGsrqtHX5uR5+lmbpQr9FpJSNcv03SzXdgCFBRZJPeLZ/8DKb9CVzE+GQIcoKEKSe6lySfrrw0LvOyR0/LXv0vpSe+59AlbGcyXxPABlNlWyTlDM+eQsK7GBJzTnG/EVFsxovgUNrpNin8JEBufHN4KlvxytIgLMb+of/21qT2O+dBTK8wrEocOHxAoAjhQEK+8RI/Bk9lP1YAL+QJGa1ZTpcfGol0TORVKMviCB/OOqd6r48nH2hLvnJnbEqYPWDxeVDZKaeg+KPKOobZvq84ZmvKPoqS0eLBBqvQPN8kiCAjL0YHGadPQS2GeYywy/PxEnyc4M3g0I0yDHU1gIOhpk5nCPwl0H6w/+4dJB4+umC08PmffMVurimQJqvBVwrVPZjRdziY904SNRIALnr6A5sYKLLoXdciCkJzjVCGuIBMepl54Dub/EH0fg3WasUpVSck7zGWuS6UKU2ptc8WsVDyr4/x74HAP5Uxq3S0IqWiJMNOud0eama9jYcN/9LjWSlIglwKQrz+CA3etYxoOxLgYhMtCD2zKSdP2dGieIX5tmamXCyaZwTaexvCDgT2LmXTtp8AiNc47M2QWYMISr76UwwtDYVZaHq4QbvHPc6U7XePr0PMsu4KKlytaetTzI3xjmNp9xyv/yTnCjTQcf5fwYJzkOJbMkUN0NXdj74CUmIDyrTSKT7TCxnSAlyPEI1/G4cvPEjMcYxUncRnsBeqiDtWfUdgiD+msMlwcmgF3mLkt6nne/TGdhrEP86GHlMA5o/nxz2b0pg7pyA6/ZLzNmJjuiyYfKI=}"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  globalNodeProperties:
+  - envVars:
+      env:
+      - key: "ANDROID_HOME"
+        value: "/data/Android/Sdk"
+      - key: "ANDROID_KEYSTORE"
+        value: "/data/Android/Sdk/android_keystore.jks"
+  labelAtoms:
+  - name: "built-in"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  numExecutors: 2
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    github:
+      clientID: "7e50d4288053f00ebb11"
+      clientSecret: "{AQAAABAAAAAwJwZAuGpxF11iilY9Vuo84DHlIdIQnDkOHE6+BCJI1lDvDPKIzNRYfDa9UHiHL7TRWLK5WbkkefFeciDCpNdf5g==}"
+      githubApiUri: "https://api.github.com"
+      githubWebUri: "https://github.com"
+      oauthScopes: "read:org,user:email,repo"
+  slaveAgentPort: 50000
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+globalCredentialsConfiguration:
+  configuration:
+    providerFilter: "none"
+    typeFilter: "none"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  sSHD:
+    port: -1
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildStepOperation:
+    enabled: false
+  email-ext:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: |-
+      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+      Check console output at $BUILD_URL to view the results.
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: -1
+    precedenceBulk: false
+    watchingEnabled: false
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    configs:
+    - credentialsId: "ntg_sre"
+      manageHooks: false
+      name: "NTG"
+    hookUrl: "https://autopacking.h365.games/github-webhook/"
+  gitSCM:
+    addGitTagAction: false
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  junitTestResultStorage:
+    storage: "file"
+  location:
+    adminAddress: "還沒設定地址 <nobody@nowhere>"
+    url: "https://autopacking.h365.games/"
+  mailer:
+    charset: "UTF-8"
+    useSsl: false
+    useTls: false
+  pollSCM:
+    pollingThreadCount: 10
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+tool:
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
